@@ -11,6 +11,8 @@
 		414530B31C40748900700D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414530B11C40748900700D9F /* Main.storyboard */; };
 		414530B51C40748900700D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414530B41C40748900700D9F /* Assets.xcassets */; };
 		414530B81C40748900700D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414530B61C40748900700D9F /* LaunchScreen.storyboard */; };
+		416127DC1C53D0F5001A899C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416127DB1C53D0F5001A899C /* WebViewController.swift */; };
+		416127DE1C53D2C0001A899C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416127DD1C53D2C0001A899C /* WebKit.framework */; };
 		418F665B1C458A06002CD018 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418F665A1C458A06002CD018 /* MapKit.framework */; };
 		418F665D1C4596F8002CD018 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418F665C1C4596F8002CD018 /* MapViewController.swift */; };
 		41DD98741C415444006C1B0D /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD98731C415444006C1B0D /* ConversionViewController.swift */; };
@@ -23,6 +25,8 @@
 		414530B41C40748900700D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414530B71C40748900700D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		414530B91C40748900700D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416127DB1C53D0F5001A899C /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		416127DD1C53D2C0001A899C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		418F665A1C458A06002CD018 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		418F665C1C4596F8002CD018 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		41DD98731C415444006C1B0D /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416127DE1C53D2C0001A899C /* WebKit.framework in Frameworks */,
 				418F665B1C458A06002CD018 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +48,7 @@
 		414530A11C40748900700D9F = {
 			isa = PBXGroup;
 			children = (
+				416127DD1C53D2C0001A899C /* WebKit.framework */,
 				418F665A1C458A06002CD018 /* MapKit.framework */,
 				414530AC1C40748900700D9F /* WorldTrotter */,
 				414530AB1C40748900700D9F /* Products */,
@@ -67,6 +73,7 @@
 				414530B11C40748900700D9F /* Main.storyboard */,
 				41DD98731C415444006C1B0D /* ConversionViewController.swift */,
 				418F665C1C4596F8002CD018 /* MapViewController.swift */,
+				416127DB1C53D0F5001A899C /* WebViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -145,6 +152,7 @@
 				41DD98741C415444006C1B0D /* ConversionViewController.swift in Sources */,
 				418F665D1C4596F8002CD018 /* MapViewController.swift in Sources */,
 				414530AE1C40748900700D9F /* AppDelegate.swift in Sources */,
+				416127DC1C53D0F5001A899C /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
